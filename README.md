@@ -7,7 +7,7 @@
     * 通过生成器自动创建项目
     * 配置分析
 
-###### · 安装
+> 安装
 
 ```javascript
 cnpm i -g express-generator
@@ -18,7 +18,7 @@ express express-project  // 创建项目
 ![image](https://github.com/ccyinghua/express-project/blob/master/resource/readimg/image01.png?raw=true)
 
 
-```javascript
+```
 cd express-project
 cnpm install   // 安装依赖
 node bin/www   // 运行
@@ -28,7 +28,7 @@ node bin/www   // 运行
 
 ![image](https://github.com/ccyinghua/express-project/blob/master/resource/readimg/image02.png?raw=true)
 
-#####  · 更换模板引擎
+> 更换模板引擎
 
 express项目views文件夹内文件格式是.jade格式，若要改成HTML文件。 
 
@@ -38,7 +38,7 @@ cnpm install ejs --save   //安装ejs
 
 ```
 
-```
+```javascript
 app.js
 
 var ejs = require('ejs');
